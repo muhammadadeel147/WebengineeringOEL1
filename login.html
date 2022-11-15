@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box">
+    <img src="/8.png" class="logo">
+    <h1>Login Here</h1>
+    <form >
+    <p>Username</p>
+    <input type="text" placeholder="Enter Username" required pattern="^[A-Za-z]+$" id="username">
+    <p>Email</p>
+    <input type="email"  required placeholder="abcd@gmail.com" id="email">
+    <p>Password</p>
+    <input type="password" placeholder="Enter Password" required pattern="^(?=.*?[A-Z])(?=.*?[#?!@$%^&*-]).{5,}$" id="password">
+    <input type="submit" value="Login" onclick="nextpage()"  >
+    <br>
+
+    
+        </div>
+    </div>
+    
+    </form>
+    
+    <script src="/main.js"></script>
+</body>
+</html>
